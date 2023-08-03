@@ -1,6 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #B78D65;
+    --primary: #1073bd;
+    /* --primary: #B78D65; */
     --light: #F8F8F8;
     --dark: #252525;
 }
@@ -62,7 +63,18 @@ h6,
     font-weight: 500;
     transition: .5s;
 }
-
+.btn-primary{
+    background-color: var(--primary);
+    border-color: rgb(123, 152, 215);
+}
+.text-primary{
+    color: var(--primary) !important;
+}
+.btn-primary:hover {
+    color: #000;
+    background-color: var(--primary);
+    border-color: #be9874;
+}
 .btn.btn-primary,
 .btn.btn-secondary {
     color: #FFFFFF;
