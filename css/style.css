@@ -567,3 +567,31 @@ h6,
 .footer .copyright a:hover {
     color: var(--primary);
 }
+/* تنسيق الزر */
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25D366;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 14px 46px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* تنسيق الصورة */
+  .whatsapp-button i {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+    font-size: 25px;
+    margin-left: 22px;
+  }
+  
+  a:hover{
+    color: var(--primary);
+  }
+  a h3:hover{
+    color: var(--primary);
+  }
